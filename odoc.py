@@ -4,7 +4,7 @@ import os,sys
 def sender(num,msg):
 	str='echo %s | gammu sendsms text %s' %(msg,num)
 	os.system(str)
-	print "Msg sent to %s is successfully" %(num)
+	print "Msg sent to %s successfully" %(num)
 	
 #store the message in msg variable
 msg=sys.argv[2]
